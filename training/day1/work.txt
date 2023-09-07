@@ -1,0 +1,112 @@
+compiler 
+interpreter 
+int range 
+short int
+
+program 1 
+
+
+getsizeof
+string = "sanjkdfs"
+print(len(string))
+k= getsizeof(string)
+
+print(k)
+
+reverse a string
+
+string=input("Enter the string ")
+k=""
+for  i in string :
+    k=i+k
+print(k)
+
+
+min and max 
+
+
+k=[9,7,5,3,10,1,8]
+max=0
+min=9998
+for i in k:
+    # if (max<i) :
+    #     max=i
+    max = i if max<i else max
+    min =i if min>i else min
+    # if (min>i):
+    #     min=i
+print("max = "+str(max)+"\nmin = "+str(min))
+
+
+kth maximum and minimum 
+
+
+
+# kth max and mininmum element of the array
+# j=[12,3213,33,54,65,45,25]
+# tem=0
+# for i in range(len(l)):
+#     #print(i)
+#     for j in range(len(l)-1):
+#         if l[i] > l[j+1]:
+#             tem = l[i]
+#             l[i] =  l[j+1]
+#             l[j+1] = tem
+#         else:
+j=[12,3213,33,54,65,45,25]
+kj= sorted(j)
+print(kj)
+k=int(input("Enter the k value"))
+maximum=kj[(len(j))-k]
+minimum=kj[k-1]
+print(maximum)
+print(minimum)
+
+
+
+
+
+#duplicate removal
+
+j=[12,3213,33,54,65,45,25,434,25,12,33,54]
+kj= sorted(j)
+for i in kj:
+    if j.count(i) >1:
+        kj.remove(i)
+
+
+
+# j=[12,3213,33,54,65,45,25]
+# kj= sorted(j)
+print(kj)
+k=int(input("Enter the k value"))
+maximum=kj[(len(kj))-k]
+minimum=kj[k-1]
+print(maximum)
+print(minimum)
+
+
+
+
+# sort of 0 ,1,2
+array=[]
+array=input("Enter the list").split()
+print(array)
+
+count0=array.count("0")
+count1=array.count("1")
+count2=array.count("2")
+print(l2)
+k=[]
+for i in range(count0):
+    k.append(0)
+for i in range(count1):
+    k.append(1)
+for i in range(count2):
+    k.append(2)
+print(k)
+
+
+
+
+
